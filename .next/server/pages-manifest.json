@@ -1,7 +1,14 @@
 {
   "/_app": "pages/_app.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/post/[id]": "pages/api/post/[id].js",
+  "/api/post": "pages/api/post.js",
+  "/api/publish/[id]": "pages/api/publish/[id].js",
+  "/create": "pages/create.html",
+  "/drafts": "pages/drafts.js",
+  "/": "pages/index.js",
+  "/p/[id]": "pages/p/[id].js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/p/[id]": "pages/p/[id].js"
+  "/404": "pages/404.html"
 }
